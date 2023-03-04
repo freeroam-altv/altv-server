@@ -1,0 +1,21 @@
+name: Pull Request
+on: [pull_request]
+jobs:
+  test:
+    name: Test changes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+      - name: Install dependencies
+        run: yarn install
+      - name: Test
+        run: yarn run test
+      - name: Lint
+        run: yarn run lint
