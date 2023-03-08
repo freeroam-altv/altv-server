@@ -1,6 +1,6 @@
 #!/bin/bash
 # vault login -address=http://localhost:8200
-# START THIS SCRIPT:  VAULT_ADDR=http://localhost:8200 sh vault-initial.sh
+# START THIS SCRIPT:  VAULT_ADDR=http://localhost:8200 sh vault-init.sh
 
 vault auth enable approle
 

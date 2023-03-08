@@ -6,4 +6,4 @@ function handleLogConsole(msg: string) {
     alt.log(msg);
 }
 
-export {handleLogConsole};
+export { handleLogConsole };

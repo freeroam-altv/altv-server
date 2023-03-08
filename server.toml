@@ -9,6 +9,6 @@ name = 'FREEROAM Project @ 1.0.1'
 password = 'aASJDijLALKSjli'
 players = 1024
 port = 7788
-resources = [ 'core' ]
+resources = [ 'freeroam' ]
 tags = [  ]
 website = 'freero.am'

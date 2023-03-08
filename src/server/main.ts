@@ -3,5 +3,5 @@ import { newConfiguration } from "./utils/config/config";
 
 const err = await newConfiguration(".env");
 if (err !== null) {
-  alt.logError(err);
+    alt.logError(err);
 }

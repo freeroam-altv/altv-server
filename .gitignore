@@ -1,6 +1,6 @@
 node_modules
 altv-server
-resources
+resources/freeroam/*
 .vscode
 .idea/
 *.dll
@@ -15,6 +15,7 @@ package-lock.json
 server.log
 webview/*
 webview/yarn.lock
-src/core/client/webview/*
-!src/core/client/webview/.gitkeep
+src/client/webview/*
+!src/client/webview/.gitkeep
+!resources/freeroam/.gitkeep
 .env
