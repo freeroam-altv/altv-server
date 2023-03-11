@@ -1,3 +1,6 @@
 [submodule "webview"]
 	path = webview
 	url = git@github.com:freeroam-altv/webview.git
+[submodule "src/backend-sdk"]
+	path = src/backend-sdk
+	url = git@github.com:freeroam-altv/backend-sdk.git
