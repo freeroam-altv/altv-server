@@ -1,0 +1,16 @@
+.server-crashes-cache
+node_modules
+altv-server
+resources
+.vscode
+.idea
+*.dll
+*.exe
+update.json
+modules/
+data/
+*.log
+cache/
+crashdumps/
+package-lock.json
+ipc.txt
