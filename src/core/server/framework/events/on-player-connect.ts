@@ -1,5 +1,5 @@
 import * as alt from "alt-server";
-import { connectToLobby } from "../../plugins/room-plugin/index";
+import { connectToLobby } from "../room-manager/index";
 
 const handlePlayerConnect = (player: alt.Player) => {
     if (!player.valid) return;

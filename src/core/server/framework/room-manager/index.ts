@@ -36,7 +36,7 @@ const internal = {
     },
 
     log: (...message: any[]) => {
-        alt.log("[room-plugin]", ...message);
+        alt.log("[room-manager]", ...message);
     },
 
     logWarning: (...message: any[]) => {
