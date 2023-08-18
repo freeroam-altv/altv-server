@@ -1,7 +1,6 @@
 {
-    "name": "altv-quickstart-ts",
+    "name": "@freero.am/altv-server",
     "version": "5.2.1",
-    "description": "TypeScript with alt:V Made Easy",
     "scripts": {
         "update": "altv-pkg d dev",
         "build": "node ./scripts/compiler.js && node ./scripts/copy.js && node ./scripts/transform.js",
