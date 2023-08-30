@@ -11,6 +11,10 @@ export class Logger {
         alt.log(`[${this.serviceName}]`, ...message);
     }
 
+    logInfo(...message: any[]) {
+        alt.log(`[Info][${this.serviceName}]`, ...message);
+    }
+
     logWarning(...message: any[]) {
         alt.logWarning(`[${this.serviceName}]`, ...message);
     }
